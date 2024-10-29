@@ -1,0 +1,15 @@
+import time
+a="□"
+b="■"
+n=int(input())
+x=float(input())
+str_1=""
+for i in range (n+1):
+    str_1=i*b+(n-i)*a
+    print(str_1,end="\r")
+    time.sleep(x)
+ 
+print(str_1)
+
+
+
